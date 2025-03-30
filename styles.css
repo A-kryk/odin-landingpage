@@ -1,0 +1,175 @@
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.zero-gap{
+    margin: 0;
+    padding: 0;
+    flex: auto;
+}
+
+.first-block{
+    background: #1F2937;
+    flex: 3;
+}
+
+.first-container{
+    display: flex;
+    margin: 0px 100px 50px 100px;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    margin-bottom: 30px;
+}
+
+.link-container{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    color: white;
+}
+
+.second-container{
+    display: flex;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+img{
+    flex: 3;
+    max-height: 200px;
+    max-width: fit-content;
+    margin-left: 100px;
+}
+
+.title-text{
+    color: white;
+}
+
+.title-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup{
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 4px;
+    padding:4px 20px ;
+}
+
+.second-block{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.box1, .box2, .box3, .box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images{
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.third-block{
+    flex: 2;
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 50px 130px;
+    flex-direction: column;
+}
+
+.author-container{
+    display: flex;
+    justify-content: right;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author{
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.fourth-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.blue-box{
+    display: flex;
+    justify-content: center;
+    background: #3882F6;
+    border-radius: 8px;
+    padding: 15px 40px;
+    align-items: center;
+    gap: 60px;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup2{
+    padding: 3px 15px 3px 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    min-width: max-content;
+}
+
+.calltoaction{
+    color: white;
+}
+
+.signupstatement{
+    color: white;
+    font-size: 10px;
+}
